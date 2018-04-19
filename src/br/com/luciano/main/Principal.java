@@ -11,8 +11,8 @@ public class Principal {
 	public static void main(String[] args) {
 
 		final String DATABASE_URL = "jdbc:sqlserver://localhost;databaseName=crud";
-		final String DATABASE_USER = "luciano";
-		final String DATABASE_PASSWORD = "kyt32014";
+		final String DATABASE_USER = "user";
+		final String DATABASE_PASSWORD = "******";
 		final String QUERY = "select * from pessoa";
 		
 		try {
